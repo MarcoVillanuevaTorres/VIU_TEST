@@ -1,4 +1,7 @@
+import my_math
+
 a = 20
 b = 120 
+c = 10
 print('El valor de A es ',a)
-print('El valor de A es ',b)
+print(f"Metodo Math = {my_math.add((a*c),b)}")
