@@ -1,12 +1,8 @@
 import my_math
 
-a = 20
-b = 120 
+a = 22
+b = 30
 c = 30
-d = 40
-print('El valor de A es ',a)
-print(f"Metodo Math = {my_math.add((a*c),b)}")
+print(f"The global result is = { my_math.mul(my_math.mul(a,b), c) }")
 
-print("Pruebas")
-
-print("Pruebas2")
+print("I am P1....")
